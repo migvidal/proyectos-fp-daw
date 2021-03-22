@@ -1,0 +1,4 @@
+MIGUEL VIDAL FUNCIA
+DAW_M06_ACT06
+
+Nota: he elegido FETCH para realizar todas las peticiones.

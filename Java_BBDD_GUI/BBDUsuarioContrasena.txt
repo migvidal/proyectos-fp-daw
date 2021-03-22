@@ -1,0 +1,3 @@
+BBD: cine
+Usuario: 12miguel34
+Contraseña: 12miguel34

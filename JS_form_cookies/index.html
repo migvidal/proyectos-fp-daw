@@ -1,0 +1,61 @@
+<!--MIGUEL VIDAL FUNCIA-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 05</title>
+    <script src="formulario.js" defer></script>
+</head>
+<body>
+
+    <form name="formulario">
+        <div>
+            <label>Usuario:</label>
+            <input type="text" placeholder="inputNick">
+        </div>
+
+        <div>
+            <label>Password:</label>
+            <input type="text" placeholder="inputPass1">
+
+            <label>Confirma Password:</label>
+            <input type="text" placeholder="inputPass2">
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="text" placeholder="inputEmail">
+            <label>Tus aficiones:</label>
+            <select multiple name="aficiones">
+                <option>Programar</option>
+                <option>Leer</option>
+                <option>Cantar</option>
+                <option>Bailar</option>
+            </select>
+        </div>
+
+        <div>
+            <label>DNI:</label>
+            <input type="text" placeholder="inputDNI">
+        </div>
+
+        <div>
+            <label>Acepto las condiciones</label>
+            <input type="checkbox">
+            <button type="button">Regístrate</button>
+        </div>
+
+        <div>
+            <button type="button" id="btnSubmit">Guardar Datos</button>
+            <button type="button" id="btnRecupera">Recuperar Datos</button>
+        </div>
+        
+        <label>Nueva afición:</label>
+        <input type="text" placeholder="inputAficion">
+        <button type="button" id="btnAnadirAficion">Añadir Afición</button>
+    </form>
+    
+</body>
+</html>
